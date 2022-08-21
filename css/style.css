@@ -1,0 +1,278 @@
+@font-face {
+	font-family: 'Roboto Regular';
+	src: url('MullerExtraBoldDEMO.woff') format('woff');
+	font-weight: 100;
+	font-style: normal;
+}
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Roboto Regular', sans-serif;
+    
+}
+
+img {
+    max-width: 100%;
+}
+
+:root {
+    --gap: 30px;
+}
+
+body {
+    min-width: 320px;
+}
+
+.container {
+    max-width: 1100px;
+    margin: 0 auto;
+}
+
+.popup-container {
+    display: none;
+    position: fixed;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(75, 74, 74, 0.65);
+    z-index: 10;
+}
+
+.popup {
+    width: 350px;
+    height: 400px;
+    background-color: white;
+    padding: 20px;
+    margin: 40px auto;
+}
+
+header .container {
+    display: flex;
+    justify-content: space-between;
+}
+
+a {
+    text-decoration: none;
+    color: black;
+}
+
+h2 {
+    text-align: center;
+}
+
+.logo-image {
+    width: 207px;
+    height: 125px;
+}
+
+.phone-link {
+    margin: auto 0;
+}
+
+.phone-link-green {
+    color: green;
+}
+
+ul li {
+    list-style-type: none;
+}
+
+.nav-menu {
+    margin-top: 20px;
+}
+
+.menu-item {
+    display: inline-block;
+    padding-right: 20px;
+}
+
+.menu-item a:hover {
+    color: green;
+}
+
+.slider-section .container {
+    display: flex;
+    justify-content: space-around;
+    color: white;
+}
+
+.slide-1 {
+    background: url('../img/slider-image-1.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center bottom;
+    height: 600px;
+}
+
+.slide-2 {
+    background: url('../img/slider-image-2.jpg');
+    background-repeat: no-repeat;
+    text-align: center;
+    background-size: cover;
+    background-position: center bottom;
+    height: 600px;
+}
+
+.main-heading {
+    margin: 100px 0 100px 0;
+    text-align: center;
+}
+
+.slide-2 .main-heading {
+    margin: 150px 0 0 0;
+}
+
+.main-heading h1 {
+    margin-bottom: 10px;
+}
+
+.form-block {
+    border: 2px solid white;
+    border-radius: 10px;
+    margin: 100px 0 100px 0;
+    width: 270px;
+    height: 300px;
+    background-color: rgba(0, 0, 0, 0.5);
+}
+
+.form {
+    padding: 20px;
+}
+
+.form input[type="text"], .form input[type="tel"] {
+    width: 230px;
+    height: 30px;
+}
+
+.form input {
+    margin: 15px 0;
+}
+
+.form-button {
+    margin-right: 50px !important;
+    background-color: #007aff;
+    float: right;
+    text-align: center;
+    border: none;
+    border-radius: 25px;
+    width: 120px;
+    height: 40px;
+    line-height: 40px;
+    color: white;
+    cursor: pointer;
+}
+
+.advantages-block {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+.advantages-item {
+    display: flex;
+    width: 500px;
+    margin-bottom: 70px;
+    transition: all 1s ease-out;
+}
+
+.advantages-item:hover {
+    transform: scale(1.1);
+}
+
+.advantages-item h3, .advantages-item p {
+    line-height: 1.5;
+}
+
+.button-order-block {
+    text-align: center;
+}
+
+.button-order, .button-order-slide {
+    text-align: center;
+    margin-right: 16px;
+    background-color: green;
+    border: none;
+    border-radius: 25px;
+    width: 120px;
+    height: 40px;
+    line-height: 40px;
+    color: white;
+    cursor: pointer;
+}
+
+.button-order-slide {
+    margin-top: 20px;
+}
+
+.button-order a {
+    color: white;
+}
+
+.contacts-block {
+    display: flex;
+    justify-content: space-between;
+}
+
+.phone-block {
+    border: 2px solid black;
+}
+
+.phone-block p {
+    padding: 20px;
+    text-align: center;
+}
+
+.swiper-pagination-bullet {
+    width: 15px;
+    height: 15px;
+}
+
+.advantages-heading, .contacts-heading {
+    margin: 30px 0 30px 0;
+}
+
+.advantage-image {
+    margin-right: 20px;
+}
+
+#map {
+    width: 400px;
+    height: 400px;
+}
+
+.data-block {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+.data-block address {
+    text-align: center;
+}
+
+.messanger-item {
+    display: inline-block;
+}
+
+address {
+    line-height: 1.5;
+}
+
+.messanger-block p {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.messanger-container {
+    display: flex;
+}
+
+.error {
+    background-color: red;
+}
+
+
+
+
